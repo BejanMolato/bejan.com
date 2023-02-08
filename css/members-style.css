@@ -1,0 +1,54 @@
+/**
+*  
+* Team Members Front CSS
+* Plugin URI: https://www.my-site.com/
+* Description: This will create members CPT
+* Author: Bejan Test
+* Author URI: https://www.my-site.com/
+**/
+
+article.members .entry-header {
+	display: none;
+}
+
+.member-wrap {
+	background-color: #efefef;
+	border: 3px solid #eee;
+	padding: 20px;
+}
+
+.member-wrap p:empty {
+	display: none;
+}
+
+.post-image {
+	display: block;
+	border-radius: 50%;
+	border: 4px solid #CCC;
+	float:left;
+	margin: 0 20px 0 0;
+}
+
+.member-name {
+	font-size: 24px;
+    font-weight: 700;	
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.member-name a {
+	color: #000;
+	text-decoration: none;
+}
+
+.job-title {
+	font-size: 16px;
+    font-weight: 700;	
+	margin: 0;
+}
+
+.excerpt {
+	display: block;
+	overflow: hidden;
+}
+
